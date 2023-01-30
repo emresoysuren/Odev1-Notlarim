@@ -44,7 +44,7 @@ class _AppState extends State<App> {
                       textWidthBasis: TextWidthBasis.longestLine,
                       style: GoogleFonts.monoton(
                         textStyle: const TextStyle(
-                          fontSize: 36,
+                          fontSize: 32,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -63,7 +63,7 @@ class _AppState extends State<App> {
                     ),
                   ),
                   const SizedBox(
-                    height: 16,
+                    height: 18,
                   ),
                   GestureDetector(
                     onTap: () => setState(() {
